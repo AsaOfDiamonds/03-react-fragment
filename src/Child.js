@@ -1,12 +1,12 @@
-import React from "react"
+import React, {Fragment} from "react"
 import GrandChild from "./GrandChild"
 
-function Child() {
+const Child = () => {
     return (
-        <div>
+        <Fragment>
             <h1>I'm the Child component</h1>
             <GrandChild />
-        </div>
+        </Fragment>
     )
 }
 
